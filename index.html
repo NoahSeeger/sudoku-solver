@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sudoku Solver | Noah</title>
+  </head>
+  <body>
+    <h1>Sudoku Solver</h1>
+
+    <div class="container">
+      <div class="sudoku-container">
+        <table>
+          <tbody id="sudoku-grid"></tbody>
+        </table>
+      </div>
+
+      <div class="button-container">
+        <button id="solve-btn">Solve Puzzle</button>
+        <button id="clear-btn">Clear</button>
+      </div>
+      <button id="generate-btn">Generate</button>
+      <label for="generate-input">Amount (between 1 and 78):</label>
+      <input id="generate-input" type="range" min="1" max="78" />
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
